@@ -1,0 +1,61 @@
+.add-student, .edit-student{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.add-student-form{
+    width: 40%;
+    margin-bottom: 50px;
+    box-shadow: 5px 2px 10px;
+    padding: 20px;
+}
+.student-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.student-table{
+    min-width: 360px;
+    width: 60%;
+    margin-bottom: 30px;
+    box-shadow: 5px 2px 10px;
+    padding: 20px;
+    text-align: center;
+}
+.student-register-form, .student-edit-form{
+    min-width: 360px;
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-shadow: 5px 2px 10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: white;
+}
+.student-info{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    min-width: 360px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.add-info-table{
+    text-align: center;
+    width: 100%;
+}
+.card-header{
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+}
+.card-header span{
+    font-size: 20px;
+}
+.card-header-first{
+    font-weight: bold;
+}

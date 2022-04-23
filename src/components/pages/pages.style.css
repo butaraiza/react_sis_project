@@ -1,0 +1,43 @@
+
+.nav-items{
+    padding: 20px 50px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: rgb(77, 74, 74);
+    color: white;
+    height: auto;
+}
+.footer-right span{
+   padding: 0 15px;
+}
+.footer-right a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+.footer-right .footer-span-home:hover{
+    text-decoration: underline;
+}
+.homepage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.table{
+    width: 60%;
+    text-align: center;
+}
+thead{
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+}
+td, th{
+    padding: 5px 10px;
+}
+.student-list{
+    min-height: 90vh;
+}
